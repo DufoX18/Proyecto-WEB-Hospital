@@ -1,0 +1,47 @@
+#navbar {
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+    box-shadow: 0 4px 4px rgba(128, 128, 128, 0.5);
+}
+
+#contacto-nav {
+    font-size: 20px;
+    margin-left: 160px;
+ 
+}
+
+#navbarDropdown {
+    margin-left: 150px;
+    font-size: 20px;
+    transition: 1ms;
+}
+
+#drop-menu {
+    margin-top: 20px;
+    margin-left: 150px;
+
+}
+
+#li1 {
+    color: rgb(43, 194, 194);
+    border-bottom: 1px solid gray;
+    box-shadow: 0 4px 4px rgba(128, 128, 128, 0.5); 
+    transition: 400ms;
+}
+
+#li1:hover{
+    background-color: gray;
+}
+
+#li {
+    color: rgb(43, 194, 194);
+    border-bottom: 1px solid gray;
+    box-shadow: 0 4px 4px rgba(128, 128, 128, 0.5);
+    margin-top: 8px;
+    transition: 400ms;  
+}
+
+#li:hover{
+    background-color: gray;
+}
