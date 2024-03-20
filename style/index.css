@@ -2,7 +2,14 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100%;
+    min-height: 100%; 
+    width: 100%; 
+    overflow-x: hidden; 
+}
+
+
+#container {
+    width: auto;
 }
 
 #navbar {
@@ -11,15 +18,16 @@ body {
     width: auto;
     height: auto;
     box-shadow: 0 4px 4px rgba(128, 128, 128, 0.5);
-    position: fixed; 
-    top: 0; 
-    left: 0;
-    right: 0; 
-    z-index: 1000; 
+    position: fixed;
+    top: 0;
+    left: 0;    
+    right: 0;
+    z-index: 1000;
 }
 
 
 #items-nav {
+    margin-top: 10px;
     margin-left: 5%;
 }
 
@@ -28,6 +36,10 @@ body {
     margin-top: 5px;
     border-bottom: 1px solid #ccc;
 
+}
+
+#login {
+    width: 100px;
 }
 
 #li1 {
@@ -43,24 +55,129 @@ body {
 .modal-dialog {
     display: flex;
     justify-content: center;
+    text-align: center;
     align-items: center;
     height: 100%;
     margin: 0;
 
 }
 
-#carouselExample{
+#btn {
+    width: 260px;
+}
+
+#mod {
+    font-style: italic;
+    background-color: black;
+    margin-top: 200px;
+}
+
+#carouselExample {
     margin-top: 117px;
 }
 
-#section{
+#section {
     margin-top: 100px;
     text-align: center;
 }
 
+
+aside {
+    position: fixed;
+    top: 110px;
+}
+
+#toggle-menu {
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+#menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+#menu.active {
+    display: block;
+}
+
+#menu li {
+    padding: 10px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#menu li a:hover {
+    background-color: #e0e0e0;
+}
+
 #footer {
-margin-top: 100px;
+    margin-top: 100px;
     background-color: rgb(43, 194, 194);
-    padding: 20px;
+
     color: white;
 }
+
+#mapa {
+    margin-top: 4px;
+    text-align: center;
+
+}
+
+#icon{
+    color: white; 
+    text-decoration: none; 
+    transition: 300ms;
+}
+#icon1{
+    margin-left: 35px;
+    color: white; 
+    text-decoration: none; 
+    transition: 300ms;
+}
+
+#icon2{
+    margin-left: 35px;
+    color: white; 
+    text-decoration: none; 
+    transition: 300ms;
+}
+
+#icon3{
+    margin-left: 35px;
+    color: white; 
+    text-decoration: none; 
+    transition: 300ms;
+}
+
+#icon:hover {
+    color: rgb(115, 30, 226); 
+}
+
+#icon1:hover {
+    color: blue; /
+
+}
+
+#icon2:hover {
+    color: rgb(29, 161, 242) 
+  
+}
+
+#icon3:hover {
+    color: red;
+}
+
