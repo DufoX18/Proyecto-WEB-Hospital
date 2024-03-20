@@ -1,4 +1,3 @@
-
 const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=Liberia,CR&appid=d6e78e9973c630eabf2059be4696b433&units=metric';
 
 
