@@ -15,6 +15,8 @@ fetch(apiUrl)
         console.error('Error fetching weather data:', error);
     });
 
+    
+
 
 
 
