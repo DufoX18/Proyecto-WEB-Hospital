@@ -6,13 +6,15 @@ fetch(apiUrl)
     .then(data => {
         const temperature = data.main.temp;
         const location = data.name;
-
-        // Mostrar los datos en la columna de clima
         const climaColumna = document.getElementById('clima-columna');
         climaColumna.innerHTML = `<h5>Temperatura en ${location}: ${temperature}°C</h5>`;
     })
     .catch(error => {
         console.error('Error fetching weather data:', error);
+    });
+
+    var myCarousel = new bootstrap.Carousel(document.getElementById('carouselExample'), {
+        interval:10000
     });
 
     
