@@ -8,6 +8,7 @@ fetch(apiUrl)
         const location = data.name;
         const climaColumna = document.getElementById('clima-columna');
         climaColumna.innerHTML = `<h5>Temperatura en ${location}: ${temperature}°C</h5>`;
+        climaColumna.innerHTML += `<img src="img/PROMED CV19 sello dark.webp" alt="">`;
     })
     .catch(error => {
         console.error('Error fetching weather data:', error);
@@ -16,6 +17,14 @@ fetch(apiUrl)
     var myCarousel = new bootstrap.Carousel(document.getElementById('carouselExample'), {
         interval:10000
     });
+
+
+    var toggleButton = document.getElementById('toggle-menu');
+    toggleButton.addEventListener('click', function() {
+        window.location.href = 'login.html';
+    });
+
+    
 
     
 
