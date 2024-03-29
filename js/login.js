@@ -10,6 +10,7 @@ fetch(apiUrl)
         // Mostrar los datos en la columna de clima
         const climaColumna = document.getElementById('clima-columna');
         climaColumna.innerHTML = `<h5>Temperatura en ${location}: ${temperature}°C</h5>`;
+        climaColumna.innerHTML += `<img src="img/PROMED CV19 sello dark.webp" alt="">`;
     })
     .catch(error => {
         console.error('Error fetching weather data:', error);
