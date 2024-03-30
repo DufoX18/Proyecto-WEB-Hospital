@@ -19,14 +19,14 @@ fetch(apiUrl)
     });
 
 
-    var toggleButton = document.getElementById('toggle-menu');
-    toggleButton.addEventListener('click', function() {
-        window.location.href = 'login.html';
+    document.addEventListener('DOMContentLoaded', function() {
+        var toggleButton = document.getElementById('toggle-menu');
+        if (toggleButton) {
+            toggleButton.addEventListener('click', function() {
+                window.location.href = 'login.html';
+            });
+        }
     });
-
-    
-
-    
 
 
 

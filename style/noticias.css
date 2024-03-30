@@ -269,3 +269,9 @@ aside {
 #contactenos{
     text-align: center;
 }
+
+@media (max-width: 387px){
+    #mapa{
+        width: 250px;
+    }
+}
