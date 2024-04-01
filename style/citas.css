@@ -1,11 +1,10 @@
-
 body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100%; 
-    width: 100%; 
-    overflow-x: hidden; 
+    min-height: 100%;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -24,7 +23,7 @@ body {
     box-shadow: 0 4px 4px rgba(128, 128, 128, 0.5);
     position: fixed;
     top: 0;
-    left: 0;    
+    left: 0;
     right: 0;
     z-index: 1000;
 }
@@ -43,10 +42,12 @@ body {
 
 
 }
+
 .dropdown-menu {
-z-index: 1001;
-position: absolute;
+    z-index: 1001;
+    position: absolute;
 }
+
 #li1 {
     transition: 300ms;
 
@@ -108,12 +109,13 @@ position: absolute;
     position: relative;
     border: 2px solid rgb(2, 180, 180);
     padding: 50px;
-    display: flex; 
-    flex-direction: column; 
+    display: flex;
+    flex-direction: column;
     align-items: center;
     background: rgb(121, 179, 179);
     margin-bottom: 30px;
 }
+
 #main-content {
     display: flex;
     justify-content: flex-end;
@@ -125,6 +127,7 @@ position: absolute;
 #Calendario {
     margin-right: 20px;
 }
+
 #calendar-container {
     width: 300px;
 }
@@ -134,7 +137,8 @@ table {
     border-collapse: collapse;
 }
 
-th, td {
+th,
+td {
     border: 1px solid black;
     padding: 8px;
     text-align: center;
@@ -148,31 +152,32 @@ th {
     text-align: center;
     margin-bottom: 10px;
 }
+
 #imagen {
     display: flex;
-    justify-content: flex-end; 
-    margin-top: -930px; 
-    margin-right: 20px; 
+    justify-content: flex-end;
+    margin-top: -930px;
+    margin-right: 20px;
     margin-bottom: 30px;
-    
+
 
 }
+
 #imagen img {
-    width: 300px; 
+    width: 300px;
     height: 900px;
 }
-h4{
-    font-family:'Times New Roman', Times, serif;
-    
+
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+
 }
+
 #footer {
-    
-    background-color: rgb(0, 0, 0);
-    color: white;
-    width: 100%;
     text-align: center;
-    
- 
+    margin-top: 100px;
+    background: linear-gradient(to right, #2b8d8d, rgb(43, 194, 194));
+    color: white;
 }
 
 #mapa {
@@ -181,76 +186,77 @@ h4{
 
 }
 
-#icon{
-    color: white; 
-    text-decoration: none; 
-    transition: 300ms;
-}
-#icon1{
-    margin-left: 35px;
-    color: white; 
-    text-decoration: none; 
+#icon {
+    color: white;
+    text-decoration: none;
     transition: 300ms;
 }
 
-#icon2{
+#icon1 {
     margin-left: 35px;
-    color: white; 
-    text-decoration: none; 
+    color: white;
+    text-decoration: none;
     transition: 300ms;
 }
 
-#icon3{
+#icon2 {
     margin-left: 35px;
-    color: white; 
-    text-decoration: none; 
+    color: white;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+#icon3 {
+    margin-left: 35px;
+    color: white;
+    text-decoration: none;
     transition: 300ms;
 }
 
 #icon:hover {
-    color: rgb(115, 30, 226); 
+    color: rgb(115, 30, 226);
 }
 
 #icon1:hover {
-    color: blue; /
-
+    color: blue;/
 }
 
 #icon2:hover {
-    color: rgb(29, 161, 242) 
-  
+    color: rgb(29, 161, 242)
 }
 
 #icon3:hover {
     color: red;
 }
-#Calendario button{
-background-color: rgb(3, 102, 102);
-color: white;
-margin-left: 10%;
+
+#Calendario button {
+    background-color: rgb(3, 102, 102);
+    color: white;
+    margin-left: 10%;
 }
-#Formulario h4{
-font-size: 30px;
-font-weight: bold;
+
+#Formulario h4 {
+    font-size: 30px;
+    font-weight: bold;
 }
-#Formulario h6{
+
+#Formulario h6 {
     color: rgb(241, 233, 233);
     font-size: 23px;
 }
 
 
 @media (max-width: 430px) {
-    #imagen{
+    #imagen {
         display: flex;
         flex-direction: column;
         margin-top: 2%;
         margin-left: 13%;
-        
-
-     }
-     #Formulario{
-       width: 100%; 
-     }
-    }     
 
 
+    }
+
+    #Formulario {
+        width: 100%;
+    }
+}
