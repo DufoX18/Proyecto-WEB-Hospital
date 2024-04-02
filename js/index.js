@@ -14,22 +14,22 @@ fetch(apiUrl)
         console.error('Error fetching weather data:', error);
     });
 
-    var myCarousel = new bootstrap.Carousel(document.getElementById('carouselExample'), {
-        interval:10000
-    });
+var myCarousel = new bootstrap.Carousel(document.getElementById('carouselExample'), {
+    interval: 10000
+});
 
 
-    document.addEventListener('DOMContentLoaded', function() {
-        var toggleButton = document.getElementById('toggle-menu');
-        if (toggleButton) {
-            toggleButton.addEventListener('click', function() {
-                window.location.href = 'login.html';
-            });
-        }
-    });
+document.addEventListener('DOMContentLoaded', function () {
+    var toggleButton = document.getElementById('toggle-menu');
+    if (toggleButton) {
+        toggleButton.addEventListener('click', function () {
+            window.location.href = 'login.html';
+        });
+    }
+});
 
 
-    
+
 
 
 

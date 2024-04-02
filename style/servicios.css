@@ -6,8 +6,6 @@
     box-sizing: border-box;
 }
 
-
-
 #navbar {
     text-align: center;
     background-color: rgb(255, 255, 255);
@@ -30,13 +28,93 @@
     margin-left: 5%;
 }
 
-.colum-4 {
+.colum-2 {
     border: solid 3px red;
 }
 
-main {
+section {
     margin-top: 100px;
 }
+
+.col-2 {
+    border: solid 1px red;
+}
+
+.col-2 {
+    border: solid 1px green;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    border-bottom: solid 1px #333;
+    margin: 50px;
+}
+
+p {
+    text-align: center;
+}
+
+#lista-icons h5 {
+    margin-top: 35px;
+}
+
+iframe {
+    padding-top: 30px;
+}
+
+.imagen:hover {
+    transform: scale(1.1);
+}
+
+.imagen {
+    margin-top: 20px;
+    margin-left: 15px;
+    transition: transform 0.5s ease;
+}
+
+.col-md-4 h4 {
+    text-align: center;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+section h5 {
+    text-align: center;
+    margin: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.col-md-3 {
+    text-align: center;
+    background-color: #e3e3e3;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #footer {
     text-align: center;
