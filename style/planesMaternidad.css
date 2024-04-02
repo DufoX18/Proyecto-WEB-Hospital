@@ -32,19 +32,31 @@ body {
     height: 80px;
 }
 #footer {
+<<<<<<< HEAD
     text-align: center;
     margin-top: 100px;
     background: linear-gradient(to right, #010013, #00344e);
+=======
+    
+    background-color: rgb(0, 0, 0);
+>>>>>>> parent of 4ddf001 (Cambios)
     color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 0%;
+    
+ 
 }
 
 #mapa {
     margin-top: 4px;
     text-align: center;
-}
 
+<<<<<<< HEAD
 #lista-icons {
     margin-top: 2%;
+=======
+>>>>>>> parent of 4ddf001 (Cambios)
 }
 
 #icon {
@@ -75,7 +87,11 @@ body {
 }
 
 #icon:hover {
+<<<<<<< HEAD
     color: rgb(226, 164, 30);
+=======
+    color: rgb(115, 30, 226); 
+>>>>>>> parent of 4ddf001 (Cambios)
 }
 
 #icon1:hover {
@@ -89,6 +105,7 @@ body {
 #icon3:hover {
     color: red;
 }
+<<<<<<< HEAD
 
 #contacto {
     margin-top: 4%;
@@ -99,6 +116,8 @@ body {
 }
 
 
+=======
+>>>>>>> parent of 4ddf001 (Cambios)
 #Informacion {
     margin-top: 100px;
     position: relative; 

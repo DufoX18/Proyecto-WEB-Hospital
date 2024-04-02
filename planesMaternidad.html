@@ -19,11 +19,141 @@
         <div id="navbar">
             <nav class="navbar">
                 <div class="container-fluid">
+<<<<<<< HEAD
                     <a href="index.html"><img src="img/./H.-San-Rafael-Arcangel-1.jpg" alt="" width="270"
                             height="100"></a>
                 </div>
             </nav>
         </div>
+=======
+                    <img src="img/./H.-San-Rafael-Arcangel-1.jpg" alt="" width="270" height="100">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="items-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-bs-toggle="modal"
+                                    data-bs-target="#aboutModal">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-bs-toggle="modal"
+                                    data-bs-target="#contactModal">Contactos</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Servicios Médicos
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#" id="li1">Servicios 24 horas</a></li>
+                                    <li><a class="dropdown-item" href="#" id="li1">Cirugías</a></li>
+                                    <li><a class="dropdown-item" href="#" id="li1">Especialidades Médicas</a></li>
+                                    <li><a class="dropdown-item" href="#" id="li1">Paquetes Preventivos</a></li>
+                                    <li><a class="dropdown-item" href="#" id="li1">Planes de Maternidad</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <a class="nav-link" href="index.html">
+                            <i class="bi-house-door-fill" style="font-size: 50px;"></i>
+                        </a>
+                        <button id="toggle-menu" data-bs-toggle="modal" data-bs-target="#loginModal">
+                            <i class="bi bi-person-circle" id="login" style="font-size: 50px;"></i>
+                        </button>
+
+                        <ul id="menu">
+                            <li><a href="#">Opción 1</a></li>
+                            <li><a href="#">Opción 2</a></li>
+                            <li><a href="#">Opción 3</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="contactModalLabel">Contactos</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Teléfonos (506) 2690-5500 | 2666-1717
+                            contacto@hcsanrafael.com
+                            <br>
+                            Av. Central, Calle 3, Liberia, Guanacaste, Costa Rica
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="contactModalLabel">¿Cómo deseas registrarte?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-body">
+                            <a href="pagina_de_login_medico.html" class="btn btn-primary bg-dark" role="button"
+                                id="btn">Registrarse como Administrador</a>
+                            <br>
+                            <br>
+                            <a href="pagina_de_login_paciente.html" class="btn btn-primary bg-dark" role="button"
+                                id="btn">Registrarse como Recepcionista</a>
+                            <br>
+                            <br>
+                            <a href="pagina_de_login_usuario.html" class="btn btn-primary bg-dark" role="button"
+                                id="btn">Registrarse como Médico</a>
+                            <br>
+                            <br>
+                            <a href="pagina_de_login_usuario.html" class="btn btn-primary bg-dark" role="button"
+                                id="btn">Registrarse como Paciente</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="aboutModalLabel">Nosotros</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>El Hospital San Rafael Arcángel es una empresa
+                            sensible orientada hacia las necesidades de nuestros
+                            pacientes y comprometida a la promoción de la salud
+                            integral en la provincia de Guanacaste actuando bajo el
+                            cumplimiento de nuestros valores: Seguridad,
+                            compromiso, respeto, sensibilidad e innovación.
+                            Nuestras modernas instalaciones albergan consulta a
+                            más de 55 médicos especialistas con condiciones de
+                            privacidad y confort así como con todo el equipo e
+                            instrumental requerido para la atención correcta del
+                            paciente ambulatorio con diferentes necesidades.
+                            Áreas de cirugía con modernos quirófanos y amplias
+                            áreas de recuperación.
+                            <br>
+                            La seguridad de nuestros
+                            pacientes es la máxima preocupación que mantenemos en el área quirúrgica, las cuales
+                            cuentan con un sistema de aire acondicionado que garantiza una purificación mayor al
+                            99%.
+                            Habitaciones individuales que le ofrecen todas las comodidades para la hospitalización
+                            de pacientes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+>>>>>>> parent of 4ddf001 (Cambios)
         <div id="Informacion">
             <div class="row">
                 <div class="col">
