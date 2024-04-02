@@ -15,14 +15,17 @@ body {
 #navbar {
     text-align: center;
     background-color: rgb(255, 255, 255);
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100px;
     box-shadow: 0 4px 4px rgba(128, 128, 128, 0.5);
     position: fixed;
     top: 0;
-    left: 0;    
+    left: 0;
     right: 0;
     z-index: 1000;
+}
+#navbar img {
+    height: 80px;
 }
 
 

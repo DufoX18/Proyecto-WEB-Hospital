@@ -2,9 +2,9 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100%; 
-    width: auto; 
-    overflow-x: hidden; 
+    min-height: 100%;
+    width: auto;
+    overflow-x: hidden;
 }
 
 
@@ -15,14 +15,18 @@ body {
 #navbar {
     text-align: center;
     background-color: rgb(255, 255, 255);
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100px;
     box-shadow: 0 4px 4px rgba(128, 128, 128, 0.5);
     position: fixed;
     top: 0;
-    left: 0;    
+    left: 0;
     right: 0;
     z-index: 1000;
+}
+
+#navbar img {
+    height: 80px;
 }
 
 
@@ -124,15 +128,15 @@ aside {
     background-color: #e0e0e0;
 }
 
-.card{
+.card {
     transition: transform 0.3s ease;
 }
 
-.card:hover{
+.card:hover {
     transform: scale(1.05);
 }
 
-.card-link{
+.card-link {
     text-decoration: none;
     background-color: rgb(39, 154, 215);
     padding-left: 6%;
@@ -141,7 +145,7 @@ aside {
     transition: 300ms;
 }
 
-.card-link:hover{
+.card-link:hover {
     background-color: #00344e;
 }
 
@@ -157,76 +161,76 @@ aside {
     text-align: center;
 }
 
-#lista-icons{
+#lista-icons {
     margin-top: 2%;
 }
 
-#icon{
-    color: white; 
-    text-decoration: none; 
-    transition: 300ms;
-}
-#icon1{
-    margin-left: 35px;
-    color: white; 
-    text-decoration: none; 
+#icon {
+    color: white;
+    text-decoration: none;
     transition: 300ms;
 }
 
-#icon2{
+#icon1 {
     margin-left: 35px;
-    color: white; 
-    text-decoration: none; 
+    color: white;
+    text-decoration: none;
     transition: 300ms;
 }
 
-#icon3{
+#icon2 {
     margin-left: 35px;
-    color: white; 
-    text-decoration: none; 
+    color: white;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+#icon3 {
+    margin-left: 35px;
+    color: white;
+    text-decoration: none;
     transition: 300ms;
 }
 
 #icon:hover {
-    color: rgb(226, 164, 30); 
+    color: rgb(226, 164, 30);
 }
 
 #icon1:hover {
-    color: blue; /
-
+    color: blue;/
 }
 
 #icon2:hover {
-    color: rgb(29, 161, 242) 
-  
+    color: rgb(29, 161, 242)
 }
 
 #icon3:hover {
     color: red;
 }
 
-#contacto{
+#contacto {
     margin-top: 4%;
 }
 
-#clima-columna{
+#clima-columna {
     margin-top: 3%;
 }
 
-#cuerpo{
+#cuerpo {
     margin-top: 170px;
 }
 
-#imagenes{
+#imagenes {
     margin-top: 50px;
     text-align: center;
 }
-#info-img{
+
+#info-img {
     text-align: center;
 }
 
-@media (max-width: 387px){
-    #mapa{
+@media (max-width: 387px) {
+    #mapa {
         width: 250px;
     }
 }
