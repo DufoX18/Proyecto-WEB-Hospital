@@ -3,10 +3,17 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
-    width: auto;
+    width: 100%;
     overflow-x: hidden;
 }
 
+#imagen-logo {
+    transition: transform 0.3s ease;
+}
+
+#imagen-logo:hover {
+    transform: scale(1.07);
+}
 
 #container {
     width: auto;
@@ -29,10 +36,18 @@ body {
     height: 80px;
 }
 
-
 #items-nav {
     margin-top: 10px;
     margin-left: 5%;
+}
+
+.nav-link:hover {
+    background-color: rgb(184, 184, 184);
+    color: rgb(43, 194, 194);
+}
+
+.nav-link {
+    transition: 300ms;
 }
 
 .dropdown-menu li {
@@ -48,7 +63,6 @@ body {
 
 #li1 {
     transition: 300ms;
-
 }
 
 #li1:hover {
@@ -128,31 +142,81 @@ aside {
     background-color: #e0e0e0;
 }
 
-.card {
+#cuerpo {
+    margin-top: 200px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#title {
+    color: rgb(36, 145, 145);
+    border-bottom: solid black 2px;
+}
+
+#contenido {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#imagenes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imagen-cirugia {
     transition: transform 0.3s ease;
 }
 
-.card:hover {
+.imagen-cirugia:hover {
     transform: scale(1.05);
 }
 
-.card-link {
+#botones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2%
+}
+
+#boton1 {
+    background-color: rgb(36, 145, 145);
     text-decoration: none;
-    background-color: rgb(39, 154, 215);
-    padding-left: 6%;
-    padding-right: 6%;
     color: white;
+    padding: 2px;
+    padding-right: 30%;
+    justify-content: center;
     transition: 300ms;
 }
 
-.card-link:hover {
-    background-color: #00344e;
+#boton2 {
+    background-color: rgb(7, 0, 43);
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+    padding-right: 20%;
+    justify-content: center;
+    margin-left: 26%;
+    transition: 300ms;
+}
+
+#boton1:hover {
+    background-color: rgb(55, 188, 188);
+}
+
+#boton2:hover {
+    background-color: rgb(0, 37, 131);
 }
 
 #footer {
     text-align: center;
     margin-top: 100px;
-    background: linear-gradient(to right, #2b8d8d, rgb(43, 194, 194));
+    background: linear-gradient(to right, #010013, #00344e);
     color: white;
 }
 
@@ -214,23 +278,4 @@ aside {
 
 #clima-columna {
     margin-top: 3%;
-}
-
-#cuerpo {
-    margin-top: 170px;
-}
-
-#imagenes {
-    margin-top: 50px;
-    text-align: center;
-}
-
-#info-img {
-    text-align: center;
-}
-
-@media (max-width: 387px) {
-    #mapa {
-        width: 250px;
-    }
 }

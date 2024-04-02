@@ -37,3 +37,70 @@
 main {
     margin-top: 100px;
 }
+
+#footer {
+    text-align: center;
+    margin-top: 100px;
+    background: linear-gradient(to right, #010013, #00344e);
+    color: white;
+}
+
+#mapa {
+    margin-top: 4px;
+    text-align: center;
+}
+
+#lista-icons {
+    margin-top: 2%;
+}
+
+#icon {
+    color: white;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+#icon1 {
+    margin-left: 35px;
+    color: white;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+#icon2 {
+    margin-left: 35px;
+    color: white;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+#icon3 {
+    margin-left: 35px;
+    color: white;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+#icon:hover {
+    color: rgb(226, 164, 30);
+}
+
+#icon1:hover {
+    color: blue;/
+}
+
+#icon2:hover {
+    color: rgb(29, 161, 242)
+}
+
+#icon3:hover {
+    color: red;
+}
+
+#contacto {
+    margin-top: 4%;
+}
+
+#clima-columna {
+    margin-top: 3%;
+}

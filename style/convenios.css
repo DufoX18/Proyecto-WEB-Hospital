@@ -36,7 +36,7 @@ body {
 #footer {
     text-align: center;
     margin-top: 100px;
-    background: linear-gradient(to right, #2b8d8d, rgb(43, 194, 194));
+    background: linear-gradient(to right, #010013, #00344e);
     color: white;
 }
 
@@ -45,59 +45,58 @@ body {
     text-align: center;
 }
 
-#lista-icons{
+#lista-icons {
     margin-top: 2%;
 }
 
-#icon{
-    color: white; 
-    text-decoration: none; 
-    transition: 300ms;
-}
-#icon1{
-    margin-left: 35px;
-    color: white; 
-    text-decoration: none; 
+#icon {
+    color: white;
+    text-decoration: none;
     transition: 300ms;
 }
 
-#icon2{
+#icon1 {
     margin-left: 35px;
-    color: white; 
-    text-decoration: none; 
+    color: white;
+    text-decoration: none;
     transition: 300ms;
 }
 
-#icon3{
+#icon2 {
     margin-left: 35px;
-    color: white; 
-    text-decoration: none; 
+    color: white;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+#icon3 {
+    margin-left: 35px;
+    color: white;
+    text-decoration: none;
     transition: 300ms;
 }
 
 #icon:hover {
-    color: rgb(226, 164, 30); 
+    color: rgb(226, 164, 30);
 }
 
 #icon1:hover {
-    color: blue; /
-
+    color: blue;/
 }
 
 #icon2:hover {
-    color: rgb(29, 161, 242) 
-  
+    color: rgb(29, 161, 242)
 }
 
 #icon3:hover {
     color: red;
 }
 
-#contacto{
+#contacto {
     margin-top: 4%;
 }
 
-#clima-columna{
+#clima-columna {
     margin-top: 3%;
 }
 

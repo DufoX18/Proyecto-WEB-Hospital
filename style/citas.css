@@ -179,14 +179,17 @@ h4 {
 #footer {
     text-align: center;
     margin-top: 100px;
-    background: linear-gradient(to right, #2b8d8d, rgb(43, 194, 194));
+    background: linear-gradient(to right, #010013, #00344e);
     color: white;
 }
 
 #mapa {
     margin-top: 4px;
     text-align: center;
+}
 
+#lista-icons {
+    margin-top: 2%;
 }
 
 #icon {
@@ -217,7 +220,7 @@ h4 {
 }
 
 #icon:hover {
-    color: rgb(115, 30, 226);
+    color: rgb(226, 164, 30);
 }
 
 #icon1:hover {
@@ -230,6 +233,14 @@ h4 {
 
 #icon3:hover {
     color: red;
+}
+
+#contacto {
+    margin-top: 4%;
+}
+
+#clima-columna {
+    margin-top: 3%;
 }
 
 #Calendario button {

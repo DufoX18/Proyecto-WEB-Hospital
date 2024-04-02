@@ -29,8 +29,14 @@ body {
     right: 0;
     z-index: 1000;
 }
+
 #navbar img {
     height: 80px;
+}
+
+#option:hover {
+    background-color: rgb(184, 184, 184);
+    color: rgb(43, 194, 194);
 }
 
 #items-nav {
@@ -268,7 +274,7 @@ aside {
 #footer {
     text-align: center;
     margin-top: 100px;
-    background: linear-gradient(to right, #2b8d8d, rgb(43, 194, 194));
+    background: linear-gradient(to right, #010013, #00344e);
     color: white;
 }
 
@@ -332,12 +338,8 @@ aside {
     margin-top: 3%;
 }
 
-#contactenos {
-    text-align: center;
-}
-
-@media (max-width: 387px){
-    #mapa{
+@media (max-width: 387px) {
+    #mapa {
         width: 250px;
     }
 }
